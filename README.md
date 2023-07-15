@@ -65,7 +65,7 @@ The model used for the performance comparison is YOLOv5s, a popular object detec
 
 Model: YOLOv5s
 Architecture: YOLO (You Only Look Once)
-Backbone: CSPDarknet53
+Backbone: Ultralytics
 Input Size: 416x416 pixels (configurable)
 Output: Bounding boxes and class probabilities
 The YOLOv5s model is chosen for its balance between accuracy and speed, making it suitable for real-time applications. However, please note that you can adapt the instructions and code provided in this repository to compare the performance of other models with and without OpenVINO.
